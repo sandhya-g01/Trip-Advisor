@@ -21,7 +21,7 @@ This project was created to practice and strengthen my front-end development ski
 
 ## 🔗 Live Demo
 
-*******Link*********
+https://sandhya-g01.github.io/Trip-Advisor/
 
 ## 📁 How to Use
 
