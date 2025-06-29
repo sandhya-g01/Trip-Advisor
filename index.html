@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Advisor</title>
+    <!--Google style sheet for fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!--My Style sheet-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--Navbar-->
+    <div class="navbar">
+        <div class="navbar__s1">
+            <img src="./images/logoimg.jpeg" alt="Title">
+        </div>
+        <div class="navbar__s2">
+            <button>Discover</button>
+            <button>Trips</button>
+            <button>Reviews</button>
+            <button>Forums</button>
+        </div>
+        <div class="navbar__s3">
+            <button class="navbar__s3__lan">
+                <div>
+                    <h4 class="nav"><i class="fa-solid fa-globe" style="color: #000205;"></i></h4>
+                </div>
+                <div class="nav">|</div>
+                <div class="nav">INR</div>
+            </button>
+            <button class="navbar__s3__sign">Sign in</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--hidden radio button-->
+    <input type="radio" name="tab" id="tab1" checked>
+    <input type="radio" name="tab" id="tab2">
+    <input type="radio" name="tab" id="tab3">
+    <input type="radio" name="tab" id="tab4">
+    <input type="radio" name="tab" id="tab5">
+    <input type="radio" name="tab" id="tab6">
+    <!--display sentence-->
+    <div class="headline">
+        <div class="text" id="text1">Where to?</div>
+        <div class="text" id="text2">Stay Somewhere great</div>
+        <div class="text" id="text3">Do something fun</div>
+        <div class="text" id="text4">Find places to eat</div>
+        <div class="text" id="text5">Find the best flight</div>
+        <div class="text" id="text6">Explore places to rent</div>
+    </div>
+
+    <!--Tab navigation-->
+    <div class="tabs">
+        <label for="tab1" class="tab"><i class="fas fa-home"></i><span>Search all</span></label>
+        <label for="tab2" class="tab"><i class="fas fa-bed"></i><span>Hotels</span></label>
+        <label for="tab3" class="tab"><i class="fas fa-camera"></i><span>Things to do</span></label>
+        <label for="tab4" class="tab"><i class="fas fa-utensils"></i><span>Restaurants</span></label>
+        <label for="tab5" class="tab"><i class="fas fa-plane"></i><span>Flights</span></label>
+        <label for="tab6" class="tab"><i class="fas fa-mountain"></i><span>Holiday Homes</span></label>
+    </div>
+
+    <!--searchbar-->
+    <div class="searchbar">
+        <i class="fa-brands fa-searchengin" style="color: #000000;"></i>
+        <input placeholder="Search anything Trips,Hotels,etc.,">
+        <button>Submit</button>
+    </div>
+    <div class="container__dis">
+        <div class="dis__img">
+            <img src="./images/tripimg.jpg" alt="trip">
+            <button>@gfish58</button>
+        </div>
+        <div class="dis__des">
+            <h1>Book the best part of your trip</h1>
+            <h4>Browse our selection of the best hotels</h4>
+            <button>Find things to do</button>
+        </div>
+    </div>
+    <div class="adv">
+        <img src="./images/addimg.jpeg" alt="advertisement">
+    </div>
+
+    <!--list of places-->
+    <div class="container__place">
+        <div class="Title__s1">
+            <h1>Find things to do by interest</h1>
+            <p>Whatever you're into, we’ve got it</p>
+            <div class="selection">
+                <div class="place__card">
+                    <img src="./images/outdoorimg.jpg" alt="outdoor">
+                    <p>Outdoor</p>
+
+                </div>
+                <div class="place__card">
+                    <img src="./images/food.jpg" alt="Food">
+                    <p>Food</p>
+
+                </div>
+                <div class="place__card">
+                    <img src="./images/cultureimg.jpg" alt="culture">
+                    <p>Culture</p>
+
+                </div>
+                <div class="place__card">
+                    <img src="./images/waterimg.jpg" alt="Water">
+                    <p>Water</p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <!--Things to do-->
+    <div class="container__like">
+        <div class="Title__like">
+            <h1>Things to do-right now</h1>
+            <p>Seasonal faves you don’t want to miss</p>
+            <div class="likesection">
+                <div class="like__card">
+                    <img src="./images/sorrentoimg.jpg" alt="sorrento">
+                    <button>Sorrento</button>
+                    <h3>small-group boat tour of the Amalfi Coast from Sorrento</h3>
+                    <p>3.8 ⬤⬤⬤⬤〇 (512)</p>
+                    <h4>from ₹15,792 per adult</h4>
+
+                </div>
+                <div class="like__card">
+                    <img src="./images/albufeiraimg.jpg" alt="albufeiraimg">
+                    <button>Albufeira</button>
+                    <h3>Dolphins Search and Benagil Caves from Albufeira</h3>
+                    <p>3.6 ⬤⬤⬤⬤〇 (115)</p>
+                    <h4>from ₹3,589 per adult</h4>
+
+
+
+                </div>
+                <div class="like__card">
+                    <img src="./images/nationalparkimg.jpg" alt="nationalpark">
+                    <button>Calgary</button>
+                    <h3>Explore Banff National Park with Our Premium Day Tour Package</h3>
+                    <p>4.8 ⬤⬤⬤⬤⬤ (118)</p>
+                    <h4>from ₹10,261 per adult</h4>
+
+
+                </div>
+                <div class="like__card">
+                    <img src="./images/whitewaterimg.jpg" alt="whitewater">
+                    <button>Jackson</button>
+                    <h3>Whitewater Rafting in Jackson Hole: Small Boat Excitement</h3>
+                    <p> 4.9 ⬤⬤⬤⬤⬤ (764)</p>
+                    <h4>from ₹11,380 per adult</h4>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    <!--International Tourist spot-->
+    <div class="container__int">
+        <h1>Inspiration to get you going</h1>
+        <div class="section__int">
+            <div class="int__card">
+                <img src="./images/nightviewimg.jpg" alt="sky">
+                <p>Where to stargaze around the world, from Utah to Dubai</p>
+            </div>
+            <div class="int__card">
+                <img src="./images/artinparisimg.jpg" alt="sky">
+                <p>Load up on art in Paris, NYC, and other culture hot spots</p>
+            </div>
+            <div class="int__card">
+                <img src="./images/foodtripsimg.jpg" alt="sky">
+                <p>13 cities,13 unbelievable food trips</p>
+            </div>
+        </div>
+    </div>
+    <!--International and national trips-->
+
+    <div class="container__nat">
+        <h1>Iconic places you need to see</h1>
+        <div class="nat__section">
+            <div class="nat__card">
+                <img src="./images/romeimg.jpg" alt="Rome">
+                <p>Rome, Italy</p>
+            </div>
+            <div class="nat__card">
+                <img src="./images/parisimg.jpg" alt="Paris">
+                <p>Paris, France</p>
+            </div>
+            <div class="nat__card">
+                <img src="./images/lasvegasimg.jpg" alt="Las Vegas">
+                <p>Las Vegas, NV</p>
+            </div>
+            <div class="nat__card">
+                <img src="./images/reykjavikimg.jpg" alt="Reykjavik">
+                <p>Reykjavik, Iceland</p>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <div class="footer">
+        <div class="sec__footer">
+            <div class="foot__section">
+                <p>About Tripadvisor</p>
+                <p>About Us</p>
+                <p>Press</p>
+                <p>Resources and Policies</p>
+                <p>Careers</p>
+                <p>Trust & Safety</p>
+                <p>Contact us</p>
+                <p>Tripadvisor Technology</p>
+                <p>Blog</p>
+            </div>
+            <div class="foot__section">
+                <p>Explore</p>
+                <p>Write a review</p>
+                <p>Add a Place</p>
+                <p>Join </p>
+                <p>Travellers' Choice</p>
+                <p>Help Centre</p>
+                <p>Travel Stories</p>
+            </div>
+            <div class="foot__section">
+                <p>Do Business With Us</p>
+                <p>Owners & DMO/CVB</p>
+                <p>Business Advantage</p>
+                <p>Sponsored Placements</p>
+                <p>Access our Content API</p>
+                <p>Get The App</p>
+                <p>iPhone App</p>
+                <p>Android App</p>
+            </div>
+            <div class="sec__footer__s1">
+                <p>Tripadvisor Sites</p>
+                <p>Book tours and attraction tickets on Viator</p>
+            </div>
+
+        </div>
+        <div class="footer-top">
+            <div class="footer-left">
+                <img src="./images/lastlogoimg.jpeg" alt="Logo" class="logo">
+                <p>&copy; 2025 Tripadversior LLC All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Privacy and Cookies Statement</a>
+                    <a href="#">Cookie consent</a>
+                    <a href="#">Site Map</a>
+                    <a href="#">How the site works</a>
+                    <a href="#">Contact us</a>
+                    <a href="#">Accessibility Statement</a>
+                </div>
+                <p class="disclaimer">
+                    Tripadversior LLC makes no guarantees for availability of prices advertised on our sites and
+                    applications. Listed prices may require a stay of a particular length or have blackout dates,
+                    qualifications or other applicable restrictions....
+                    <a href="#" class="read-more">Read more ...</a>
+                </p>
+            </div>
+
+            <div class="footer-right">
+                <select>
+                    <option>₹ INR</option>
+                </select>
+                <select>
+                    <option>India</option>
+                </select>
+                <div class="social-icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-x-twitter"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-tiktok"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
